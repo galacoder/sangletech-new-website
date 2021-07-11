@@ -1,27 +1,27 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: "Sang-Le-Tech-Website-ac363edd622a47bfa4d724ad90e879b8",
+  rootNotionPageId: 'Sang-Le-Tech-Website-ac363edd622a47bfa4d724ad90e879b8',
 
   /// if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: "Sang Le Tech Blog",
-  domain: "https://sangletech.com",
-  author: "Sang Le Tech",
+  name: 'Sang Le Tech Blog',
+  domain: 'https://sangletech.com',
+  author: 'Sang Le Tech',
 
   // open graph metadata (optional)
-  description: "Vươn Tầm Bản Thân",
-  socialImageTitle: "Sang Le Tech",
-  socialImageSubtitle: "Sang Le Tech 👋",
+  description: 'Vươn Tầm Bản Thân',
+  socialImageTitle: 'Sang Le Tech',
+  socialImageSubtitle: 'Sang Le Tech 👋',
 
   // social usernames (optional)
-  facebook: "sangletech",
-  youtube: "UC_kKA62AiqEnm-vt1ln6ovw",
-  linkedin: "sangletech",
-  instagram: "sangletech",
-  blog: "blog.sangletech.com",
+  facebook: 'sangletech',
+  youtube: 'UC_kKA62AiqEnm-vt1ln6ovw',
+  linkedin: 'sangletech',
+  instagram: 'sangletech',
+  blog: 'blog.sangletech.com',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -49,5 +49,5 @@ module.exports = {
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
-  pageUrlOverrides: null,
-};
+  pageUrlOverrides: null
+}
