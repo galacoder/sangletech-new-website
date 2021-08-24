@@ -120,6 +120,12 @@
   position: relative !important;
   padding: 16px 24px !important;
   border: none !important;
+  /* box-shadow: 0 10px 20px -10px rgb(0 0 0 / 10%) !important;
+  border-radius: 100px !important;
+  position: relative !important;
+  padding: 16px 24px !important;
+  border: none !important;
+  height: 59px; */
 }
 
 .notion-callout.notion-purple_background_co {
@@ -135,6 +141,10 @@
 .notion-callout.notion-blue_background_co {
   box-shadow: 0 10px 15px -10px #0568fd !important;
   background: #0568fd !important;
+}
+.notion-callout.notion-gray_background_co {
+  box-shadow: 0 10px 20px -10px rgb(0 0 0 / 10%) !important;
+  background: white !important;
 }
 
 .notion-callout a {
